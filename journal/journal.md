@@ -120,29 +120,57 @@ The product will be made of wood, with a clear acrylic plate over the lights so 
 
 ![Image](FC1.PNG)
 
-## Process documentation ##
+## Process Documentation ##
 
-Due to the shipping limitations that COVID-19 presents, I do not have the required materials (Halo, motors etc.) to begin physical hardware testing and fabrication. Therefore, I've been working on the code instead.
+I started work with the code, starting with a simple code that allows me to get the light to spin around the neopixel.
 
 ![Image](PE1.PNG)
 
-Currently this is where I'm at with my code, I've set the variable Pixel to the input of the Halo and managed to get the light to 'spin' on the test area on the left. Which you can see below:
+I've set the variable Pixel to the input of the Halo and managed to get the light to 'spin' on the test area on the left. Which you can see below:
 
 ![Image](PE2.PNG)
 
-I'm currently in the process of figuring out two things, one, I need to find a way to make the light stop at random intervals. I've managed to get it to stop consistently by using the pause function, however this causes the game to have a pattern, which is against the initial point of the device in the first place. I'm currently experimenting with the 'pick random' function, however am not far enough in my research to show any working code with that in place.
+At this point in the process, I had to figure out two things, one, I need to find a way to make the light stop at random intervals. I've managed to get it to stop consistently by using the pause function, however this causes the game to have a pattern, which is against the initial point of the device in the first place. I'm currently experimenting with the 'pick random' function, however am not far enough in my research to show any working code with that in place.
 
-Two, I'm also trying to work out how to put a dial in the centre of my device. I want to use the dial that we used in tutorials in week 3 of tutes, however I'm struggling to remember what it was called so can't find it online anywhere. I'll have to ask David about this and get information from him in regards to its name and where I may be able to purchase one.
+Two, I'm also trying to work out how to put a dial in the centre of my device. I want to use a potentiometer, however I have VERY little knowledge on them, so am going to have to do some research!
 
-This is where I'm at with my code, I can get the light to spin around the Halo, but can't get it to stop randomly OR find a way to get a dial working as of yet. However, I'm sure with further research I'll be able to get there.
+At this point, this is where I'm at with my code, I can get the light to spin around the Halo, but can't get it to stop randomly OR find a way to get a dial working as of yet. However, I'm sure with further research I'll be able to get there.
 
-As for my fabrication, as previously stated, due to the limitations of Covid-19 I've been unable to receive any of the electronics I've purchased. However, I have drawn up figures of how I imagine my final product looking, which I have attached below:
+At this point I have drawn up figures of how I imagine my final product looking, which I have attached below:
 
 ![Image](PE3.PNG)
 
 ![Image](PE4.PNG)
 
 After careful consideration, I've made the decision to make the final product out of wood. This decision was made, mostly because it's what I have available to me. However, it's also an aesthetic decision, due to the fact that my desk is made of wood! Which means that an object also made of wood would fit right in.
+
+At this point, I made the decision to entirely scrap the code that I had, as I realised that it absolutely wasn't correct for what I was doing. So, using the basis of the prior code above, I reworked it. Setting variable to pick random numbers from 1-24, and putting in a check statement that finds whether or not the NeoPixel light is on that value, after doing a full rotation anywhere from 2 to 4 times. 
+
+![Image](PE5.PNG)
+
+I also mapped the potentiometer values from the potentiometer from it's default 0-1023 to 1-24, so that the angle of the potentiometer is now directly proportionate to the amount of lights on the neopixel.
+
+![Image](PE6.PNG)
+
+Now that I know the code works, I wired it up, and tested it. And was happy to see that the potentiometer works PERFECTLY, and whenever I see all those lights turn green it is INCREDIBLY satisfying. The feeling of playing with it was enough for me to know that this was a good project, because I myself was getting distracted by it.
+
+![Image](PE7.PNG)
+
+Now that the projects code works and I've figured out the wiring for it, I can start thinking about how the project is going to fit together. I knew that I wanted a wooden box, but I now have to measure it out, and work out the dimensions of the box. I drew a square around the box, added 20mm for the width of the wood, and measured it out.
+
+![Image](PE8.PNG)
+
+I then got to work, cutting everything out and fitting it together. I did a dry fit to see if it all works together. I made a perfect cut out in the top of the box, that holds the Neopixel perfectly with no added support or glue. After the dry fit I was absolutely thrilled! 
+
+![Image](PE9.PNG)
+
+![Image](PE10.PNG)
+
+![Image](PE11.PNG)
+
+Now that I know the dry fit works, I can put everything together permanently! I glued the top panel and sides together, and added a hinge and clasp on the bottom, so it can be opened to replace the batteries and take out the microbit. The final design is finished! 
+
+![Image](PE12.PNG)
 
 ## Final Code ##
 
@@ -155,9 +183,6 @@ I've found the design process rather difficult actually, this comes from the fac
 However, in terms of the idea itself, it's one that I've had for quite some time. So it came rather easily in that sense. It was the simplifying it and bringing it down to size that I found rather difficult. 
 
 In designing the product itself, I personally like the boxier, rustic aesthetic a lot. So I found that I could combine the two aesthetics of light up, electronics with the rustic exterior of a wooden box, and I really like that idea! It reminds me a lot of the useless switch boxes that turns themselves off when you turn them on.
-
-Either way, I'm very excited to continue work on this project.
-
 
 ## Reflection ##
 
