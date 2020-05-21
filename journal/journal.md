@@ -188,8 +188,12 @@ In designing the product itself, I personally like the boxier, rustic aesthetic 
 
 <!--- Describe the parts of your project you felt were most successful and the parts that could have done with improvement, whether in terms of outcome, process, or understanding.
 
-What techniques, approaches, skills, or information did you find useful from other sources (such as the related projects you identified earlier)?
+I feel that both my code and choice of physical parts were the most successful parts of this build. It made for an effective and engaging product that kept my attention. However, I would love to improve on a few things if I were to make a second version, in particular the aesthetics of the box, as well as properly soldering the wires so that they are unable to fall or be knocked off. While it works in it's current state and is robust enough to work, it could always use more work.
 
-What parts of your project do you feel are novel? This is IMPORTANT to help justify a key component of the assessment rubric.
+As for resources and information that I used from other sources, I used many of the skills I learned from the basic NeoPixel tutorials. As well as using the basis from the tutorials to get the NeoPixel to spin. However, in the end I ended up creating my own script from scratch, as it worked better for my idea. Ultimately, I didn't end up using any of the information from the other sources I researched, however I was absolutely influenced by the ideas that I had researched.
 
-What might be an interesting extension of this project? In what other contexts might this project be used? --->
+I went for both a new method or interfaces for interaction as well as a new form that recontextualises existing work. I took the idea of the original cyclone arcade machine and recontextualised it for a desk setup that allows the individual to be kept busy. I also found a new method of interaction, in the way of using the dial rather than a button. I found that the dial had a far more tactile feeling as opposed to a button, which is why I made the change.
+
+Further extensions of the project include making it smaller and more compact, more of a desk toy and less of a desk chest. Furthermore, using this dial and NeoPixel combination could be used as a volume dial, brightening the lights and dimming them as the volume increases and decreases. This combination of electronics can be used for a wide range of projects, ranging from practical to impractical. Therefore, I feel that this is an incredibly diverse project, allowing for projects such as a volume knob, light switch, a wide array of games and much, much more.
+
+Ultimately, I was very happy with how my project came out. I'm incredibly proud of the code that I made. However, in future I would like to spend more time on the physical ideation of the box, making it more physically appealing. 
