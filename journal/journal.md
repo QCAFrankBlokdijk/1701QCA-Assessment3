@@ -186,8 +186,6 @@ In designing the product itself, I personally like the boxier, rustic aesthetic 
 
 ## Reflection ##
 
-<!--- Describe the parts of your project you felt were most successful and the parts that could have done with improvement, whether in terms of outcome, process, or understanding.
-
 I feel that both my code and choice of physical parts were the most successful parts of this build. It made for an effective and engaging product that kept my attention. However, I would love to improve on a few things if I were to make a second version, in particular the aesthetics of the box, as well as properly soldering the wires so that they are unable to fall or be knocked off. While it works in it's current state and is robust enough to work, it could always use more work.
 
 As for resources and information that I used from other sources, I used many of the skills I learned from the basic NeoPixel tutorials. As well as using the basis from the tutorials to get the NeoPixel to spin. However, in the end I ended up creating my own script from scratch, as it worked better for my idea. Ultimately, I didn't end up using any of the information from the other sources I researched, however I was absolutely influenced by the ideas that I had researched.
