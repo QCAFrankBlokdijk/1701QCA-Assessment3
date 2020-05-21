@@ -11,7 +11,7 @@
 The image should be inserted with code like that below where you replace the filename to exactly match what you uploaded. This will only work reliably if your filename has no spaces or unusual characters in it. The image must be in .jpg, .gif, .png format. Files of .heic or .heif type will not show up. Note that .png is different to .PNG in a filename here. The names are case sensitive.
 --->
 
-![Image](FP.png)
+![Image](FP-3.png)
 
 The Arcade Lightinator is for those of us with an inner child, the working professional who wishes they could go back to the days of the arcade. But no more! Take the arcade home with you, and keep it on your desk at all times! Keep yourself focused and motivated through your work, with the Arcade Lightinator.
 
